@@ -1,0 +1,70 @@
+/* Header */
+.header {
+	padding: 30px 0;
+	min-height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*background-color: var(--header-bg);
+	background-image: url('./../../img/coffee-apple.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center center;*/
+
+	color: var(--header-text);
+	text-align: center;
+}
+
+.header__wrapper {
+	padding: 50px 50px;
+	max-width: 660px;
+}
+
+.header__title {
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.header__title strong {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.header__title em {
+	font-style: normal;
+	color: var(--accent);
+}
+
+.header__text {
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 1.333;
+}
+
+.header__text p + p {
+	margin-top: 0.5em;
+}
+
+.circular_image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: blue;
+	/* commented for demo
+	float: left;
+	margin-left: 125px;
+	margin-top: 20px;
+	*/
+	
+	/*for demo*/
+	display:inline-block;
+	vertical-align:middle;
+  }
+  .circular_image img{
+	width:100%;
+  }
